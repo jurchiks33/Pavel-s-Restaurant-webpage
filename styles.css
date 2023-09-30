@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222121;
+    background-color: #086833;
     color: white;
 }
 
 header {
-    background: #000;
+    background: #086833;
     color: white;
     padding-top: 30px;
     min-height: 70px;
@@ -38,7 +38,7 @@ nav ul li a {
 }
 
 .hero {
-    background: url('/pictures/pizza1.jpg') no-repeat center center/cover;
+    background: url('/pictures/pizza3.jpg') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 0;
