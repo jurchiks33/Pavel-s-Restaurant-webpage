@@ -2,7 +2,8 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #222121;
+    color: white;
 }
 
 header {
@@ -54,7 +55,7 @@ nav ul li a {
     padding-bottom: 10px;
 }
 
-.footer {
+footer {
     text-align: center;
     padding: 30px 20px;
     background: #50b3a2;
