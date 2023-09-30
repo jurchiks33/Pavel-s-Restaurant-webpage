@@ -35,3 +35,36 @@ nav ul li a {
     text-transform: uppercase;
     font-size: 16px;
 }
+
+.hero {
+    background: url('/pictures/pizza1.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.menu, .about, .contact {
+    margin: 30px;
+    padding: 20px;
+}
+
+.dish {
+    border-bottom: #ccc 1px solid;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 20px;
+    background: #50b3a2;
+    color: white;
+}
+
+a {
+    color: #50b3a2;
+}
+
+a:hover {
+    text-decoration: underline;
+}
