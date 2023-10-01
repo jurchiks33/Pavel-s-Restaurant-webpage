@@ -69,3 +69,52 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+.promotional {
+    position: relative;
+    height: 100vh;
+}
+
+.promotional .logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.promotional .order-now-button {
+    position: absolute;
+    bottom: 0;
+    width: 25cm;
+    background: white;
+    text-align: center;
+}
+
+.promotional .images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: white;
+}
+
+.about-photo, .order-photo {
+    display: flex;
+    height: 23cm;
+}
+
+.about-photo .about-text, .order-photo .order-text {
+    width: 50%;
+    background: white;
+    padding: 20px;
+}
+
+.about-photo .photo, .order-photo .photo {
+    width: 50%;
+}
+
+.about-photo .photo img, .order-photo .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
