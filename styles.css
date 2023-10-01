@@ -114,9 +114,10 @@ a:hover {
     object-fit: cover;
 }
 
-.white-space {
+.white-spaces {
     background-color: white;
-    height: 15cm;
+    padding: 3cm 0;
+    margin-top: 3cm;
     display: flex;
     justify-content: center;
     align-items: center;
