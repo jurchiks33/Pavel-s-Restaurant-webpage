@@ -207,3 +207,14 @@ nav ul li a {
     font-weight: 100;
     font-size: 1cm;
 }
+
+.about-text .first-p {
+    margin-top: -100px;
+    font-size: 20px;
+}
+
+.about-text p {
+    font-size: 20px;
+    margin-right: 1cm;
+    margin-bottom: 10px;
+}
