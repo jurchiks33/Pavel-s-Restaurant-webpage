@@ -89,6 +89,7 @@ nav ul li a {
     padding: 3cm 0 2cm 0;
     margin-top: 3cm;
     box-shadow: 0px -5px 5px -5px #000000, 0px 5px 5px -5px #000000;
+    z-index: 1;
 }
 
 .images {
@@ -141,6 +142,7 @@ nav ul li a {
 .about-photo {
     display: flex;
     background-color: #88c17b;
+    margin-top: 1px;
 }
 
 .about-photo .photo,
@@ -158,6 +160,11 @@ nav ul li a {
     width: 50%;
 }
 
+.about-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
 .about-text {
     width: 50%;
     background-color: #88c17b;
@@ -169,8 +176,17 @@ nav ul li a {
     align-items: center;
 }
 
+.about-text p {
+    font-family: 'Roboto', sans-serif;
+}
+
 .about-photo-reverse {
     display: flex;
     flex-direction: row-reverse;
     background-color: #88c17b;
+}
+
+.about-title {
+    font-size: 2cm;
+    display: block;
 }
