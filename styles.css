@@ -161,6 +161,10 @@ nav ul li a {
 }
 
 .about-text h2 {
+    position: absolute; 
+    top: 2cm; 
+    left: 50%; 
+    transform: translateX(-50%); 
     font-family: 'Playfair Display', serif;
     font-weight: 700;
 }
@@ -174,6 +178,7 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .about-text p {
@@ -187,6 +192,15 @@ nav ul li a {
 }
 
 .about-title {
-    font-size: 2cm;
+    font-size: 2cm; 
+    display: block; 
+    font-family: 'Playfair Display', serif; 
+    font-weight: 700;
+    margin-bottom: 0.5cm;
+}
+
+.restaurant-subtitle {
+    margin-top: -1.5cm;
     display: block;
+    margin-left: 0.5cm;
 }
