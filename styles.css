@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -145,7 +150,7 @@ nav ul li a {
 
 .photo img {
     width: 100%;
-    height: 100%;
+    height: 25cm;
     object-fit: cover;
 }
 
@@ -162,4 +167,10 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.about-photo-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #88c17b;
 }
