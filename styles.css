@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -6,19 +7,29 @@ body {
     color: white;
 }
 
-header, footer {
-    background: #086833; 
-    color: white;
-    text-align: center; 
-    padding: 30px 20px; 
+a {
+    color: #50b3a2;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header & Footer Styles */
+header, footer {
+    background: #086833;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+/* Navigation Styles */
 nav ul {
-    list-style-type: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-    justify-content: center; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
@@ -32,32 +43,14 @@ nav ul li a {
     font-size: 16px;
 }
 
+/* Hero Section Styles */
 .hero {
     background: url('/pictures/pizza3.jpg') no-repeat center center/cover;
-    color: white;
     text-align: center;
     padding: 150px 0;
 }
 
-.menu, .about, .contact {
-    margin: 30px;
-    padding: 20px;
-}
-
-.dish {
-    border-bottom: #ccc 1px solid;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-}
-
-a {
-    color: #50b3a2;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
+/* Promotional Section Styles */
 .promotional {
     position: relative;
     overflow: hidden;
@@ -85,48 +78,20 @@ a:hover {
     left: 0;
 }
 
-.promotional .images {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
-    background: white;
-}
-
-.about-photo, .order-photo {
-    display: flex;
-    height: 23cm;
-}
-
-.about-photo .about-text, .order-photo .order-text {
-    width: 50%;
-    background: white;
-    padding: 20px;
-}
-
-.about-photo .photo, .order-photo .photo {
-    width: 50%;
-}
-
-.about-photo .photo img, .order-photo .photo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
+/* White Spaces & Images Section Styles */
 .white-spaces {
     background-color: white;
     padding: 3cm 0 2cm 0;
     margin-top: 3cm;
     box-shadow: 0px -5px 5px -5px #000000, 0px 5px 5px -5px #000000;
-
 }
 
 .images {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2cm;
+    padding: 10px;
+    background: white;
 }
 
 .images img {
@@ -140,8 +105,12 @@ a:hover {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
 
-
+/* Order Button Styles */
 .order-button-container {
     margin-top: 1.5cm;
     text-align: center;
@@ -161,4 +130,25 @@ a:hover {
 .order-button-container button:hover {
     background-color: #086833;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About Photo Section Styles */
+.about-photo {
+    display: flex;
+}
+
+.about-photo .photo,
+.about-photo .about-text {
+    width: 50%;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-text {
+    background-color: white;
+    padding: 20px;
 }
