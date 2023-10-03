@@ -230,3 +230,11 @@ nav ul li a {
     margin-right: 1cm;
     margin-bottom: 10px;
 }
+
+.hours-title {
+    font-size: 24px;
+    transform: translateY(-3cm);
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
