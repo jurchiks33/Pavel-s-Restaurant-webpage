@@ -200,12 +200,23 @@ nav ul li a {
 }
 
 .restaurant-subtitle {
-    margin-top: -1.5cm;
-    display: block;
+    margin-top: -1cm;
+    display: inline-block;
     margin-left: -0.8cm;
     font-family: 'Pacifico', cursive;
     font-weight: 100;
     font-size: 1cm;
+    position: relative;
+}
+
+.restaurant-subtitle::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: -2cm;
+    right: -2cm;
+    height: 2px;
+    background-color: currentColor;
 }
 
 .about-text .first-p {
