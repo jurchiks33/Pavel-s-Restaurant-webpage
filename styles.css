@@ -179,6 +179,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     position: relative;
+    margin-top: 2cm;
 }
 
 .about-text p {
@@ -225,16 +226,17 @@ nav ul li a {
     font-size: 20px;
 }
 
-.about-text p {
+.about-text p:not(.hours-title) {
     font-size: 20px;
     margin-right: 1cm;
     margin-bottom: 10px;
 }
 
 .hours-title {
-    font-size: 24px;
-    transform: translateY(-3cm);
+    font-size: 30px;
+    transform: translateY(-2.5cm) translateX(-0.5cm);
     font-weight: bold;
     color: black;
     text-align: center;
+    margin-bottom: 1cm;
 }
