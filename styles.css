@@ -234,9 +234,9 @@ nav ul li a {
 
 .hours-title {
     font-size: 30px;
-    transform: translateY(-2.5cm) translateX(-0.5cm);
+    transform: translateX(-0.5cm);
     font-weight: bold;
     color: black;
     text-align: center;
-    margin-bottom: 1cm;
+    margin-bottom: 4cm;
 }
