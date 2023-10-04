@@ -179,7 +179,7 @@ nav ul li a {
     justify-content: center;
     align-items: center;
     position: relative;
-    margin-top: 2cm;
+    margin-top: 1cm;
 }
 
 .about-text p {
@@ -248,7 +248,7 @@ nav ul li a {
     font-weight: bold;
     color: black;
     text-align: center;
-    margin-top: 2cm;
+    margin-top: 1.5cm;
     margin-bottom: 1cm;
 }
 
@@ -268,7 +268,7 @@ nav ul li a {
     transition: background-color 0.3s ease;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 1cm;
+    margin-top: 0.5cm;
     transform: translateX(-0.5cm);
 }
 
