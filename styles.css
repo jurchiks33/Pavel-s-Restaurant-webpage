@@ -239,4 +239,40 @@ nav ul li a {
     color: black;
     text-align: center;
     margin-bottom: 4cm;
+    margin-top: 6cm;
+}
+
+.phone-title {
+    font-size: 30px;
+    transform: translateX(-0.2cm);
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+
+.phone-number {
+    font-size: 20px;
+    margin-right: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 0.5cm;
+}
+
+.about-us-button {
+    padding: 10px 40px;
+    background-color: #50b3a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 1cm;
+    transform: translateX(-0.5cm);
+}
+
+.about-us-button:hover {
+    background-color: #086833;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
