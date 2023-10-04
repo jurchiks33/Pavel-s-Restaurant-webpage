@@ -276,3 +276,10 @@ nav ul li a {
     background-color: #086833;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
+
+.about-text h3.subtitle {
+    text-decoration: underline;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
