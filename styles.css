@@ -293,11 +293,17 @@ nav ul li a {
     transition: background-color 0.3s ease;
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 16px;
+    transform: translateX(-0.6cm);
 }
 
 .pickup-order-button:hover {
     background-color: #086833;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pickup-subtitle {
+    margin-top: -4cm;
+    margin-bottom: 20px;
 }
