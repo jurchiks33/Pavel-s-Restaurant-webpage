@@ -283,3 +283,16 @@ nav ul li a {
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
+.pickup-order-button {
+    padding: 10px 40px;
+    background-color: #50b3a2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    font-size: 16px;
+}
